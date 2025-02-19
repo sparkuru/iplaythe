@@ -87,6 +87,10 @@
 
 ## 预览 | Preview
 
+### 缩略图
+
+![缩略图](ref/iWonder.png)
+
 ### 窄屏模式
 
 <img src="ref/demo-img-01.png" alt="demo-img-01" style="zoom: 33%;" />
@@ -99,9 +103,8 @@
 
 <img src="ref/demo-img-04.png" alt="demo-img-04" style="zoom:33%;" />
 
-### 缩略图
-
-![缩略图](ref/iWonder.png)
+### 设置界面
+<img src="ref/demo-img-05.png" alt="demo-img-05" style="zoom:33%;" />
 
 ## 快捷键 | ShortcutKeys
 
