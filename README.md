@@ -8,7 +8,7 @@
 >
 > A theme designed to sharpen the focus of the document.
 
-## 特性 / Feature
+## 特性 | Feature
 
 > 1. 主题配色方案让重点更突出醒目, 详见下方预览.
 > 2. 提供更简化的标签快捷键, 配合自定义的标签颜色, 一键修改选中文本颜色.
@@ -20,7 +20,7 @@
 > 3. The iWonder theme has only been tested on Windows systems and cannot determine its effectiveness on Linux and Mac.
 > 4. The iWonder theme is constantly being updated.
 
-## 私人订制 / DIY
+## 私人订制 | DIY
 
 > 通过修改`iWonder > colorScheme > default.css` 和 `iWonder > fontScheme > default.css`中的配置项, 可以任意修改本主题的字体和颜色.
 >
@@ -58,36 +58,40 @@
 >
 > 4. Switch the Typora theme named `IWRed`.
 
-## 安装方式 / Install
+## 安装方式 | Install
 
 >> **一键安装✨**
 >
 >> 1. [点击此处下载.](https://github.com/ReidLv/theme.typora.iWonder/releases/latest)
 >> 2. 解压安装包, 然后双击运行安装包中的`setup.bat`脚本.
->> 3. Typora中切换主题(主题名格式：`IWxxxx`).
+>> 3. 重启Typora后, 切换主题(主题名格式：`IWxxxx`).
 >
 >> **手动安装**
 >>
 >> 1. [点击此处下载.](https://github.com/ReidLv/theme.typora.iWonder/releases/latest)
 >> 2. 解压安装包, 将安装包中所有内容粘贴到主题目录.主题目录可通过`Typora > 菜单 > 主题 > 打开主题文件夹`打开.
->> 3. Typora中切换主题(主题名格式：`IWxxxx`).
+>> 3. 重启Typora后, 切换主题(主题名格式：`IWxxxx`).
 >
 
 > >**Quick Install✨**
 > >
 > >1. [DownLoad.](https://github.com/ReidLv/theme.typora.iWonder/releases/latest)
 > >2. Unzip the installation package, and double-click to run the `setup.bat` script in the installation package.
-> >3. Switch Typora theme. (theme name format：`IWxxxx`).
+> >3. Restart Typora and switch theme. (theme name format：`IWxxxx`).
 >
 > > **Step by step Install**
 > >
 > > 1. [DownLoad.](https://github.com/ReidLv/theme.typora.iWonder/releases/latest)
 > > 2. Unzip and paste everything in the installation package into the theme folder. The theme folder can be opened from`Typora > menu> themes > open themes folder`.
-> > 3. Switch Typora theme. (theme name format：`IWxxxx`).
+> > 3. Restart Typora and switch theme. (theme name format：`IWxxxx`).
 
-## 预览 / Preview
+## 预览 | Preview
+
+### 窄屏模式
 
 <img src="ref/demo-img-01.png" alt="demo-img-01" style="zoom: 33%;" />
+
+### 宽屏模式
 
 <img src="ref/demo-img-02.png" alt="demo-img-02" style="zoom:33%;" />
 
@@ -95,9 +99,11 @@
 
 <img src="ref/demo-img-04.png" alt="demo-img-04" style="zoom:33%;" />
 
+### 缩略图
+
 ![缩略图](ref/iWonder.png)
 
-## 快捷键 / ShortcutKeys
+## 快捷键 | ShortcutKeys
 
 | Function   | 功能       | 快捷键         |
 | ---------- | ---------- | -------------- |
