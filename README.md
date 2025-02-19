@@ -85,6 +85,22 @@
 > > 2. Unzip and paste everything in the installation package into the theme folder. The theme folder can be opened from`Typora > menu> themes > open themes folder`.
 > > 3. Restart Typora and switch theme. (theme name format：`IWxxxx`).
 
+## 快捷键 | ShortcutKeys
+
+| Function   | 功能       | 快捷键         |
+| ---------- | ---------- | -------------- |
+| Find       | 查找       | `Ctrl+F`       |
+| Replace    | 替换       | `Ctrl+R`       |
+| Strong     | 加粗       | `Ctrl+B`       |
+| Emphasis   | 斜体       | `Ctrl+I`       |
+| Strike     | 删除线     | `Ctrl+D`       |
+| Underline  | 下划线     | `Ctrl+U`       |
+| Highlight  | 高亮       | `Ctrl+H`       |
+| Hyperlink  | 超链接     | `Ctrl+L`       |
+| Code       | 代码块     | `Ctrl+K`       |
+| CodeFences | 多行代码块 | `Ctrl+Shift+K` |
+| Image      | 图片       | `Ctrl+Shift+I` |
+
 ## 预览 | Preview
 
 ### 缩略图
@@ -105,20 +121,3 @@
 
 ### 设置界面
 <img src="ref/demo-img-05.png" alt="demo-img-05" style="zoom:33%;" />
-
-## 快捷键 | ShortcutKeys
-
-| Function   | 功能       | 快捷键         |
-| ---------- | ---------- | -------------- |
-| Find       | 查找       | `Ctrl+F`       |
-| Replace    | 替换       | `Ctrl+R`       |
-| Strong     | 加粗       | `Ctrl+B`       |
-| Emphasis   | 斜体       | `Ctrl+I`       |
-| Strike     | 删除线     | `Ctrl+D`       |
-| Underline  | 下划线     | `Ctrl+U`       |
-| Highlight  | 高亮       | `Ctrl+H`       |
-| Hyperlink  | 超链接     | `Ctrl+L`       |
-| Code       | 代码块     | `Ctrl+K`       |
-| CodeFences | 多行代码块 | `Ctrl+Shift+K` |
-| Image      | 图片       | `Ctrl+Shift+I` |
-
