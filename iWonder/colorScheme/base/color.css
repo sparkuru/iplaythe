@@ -23,14 +23,16 @@
     --scrollbar-bg-color: var(--scope-color-2);
 
 
-
     /*全局 文本颜色*/
     --text-color: var(--text-color-0);
     /*全局 文本背景颜色*/
     --text-bg-color: var(--text-color-1);
 
+    /*选中文本的 文本颜色*/
+    --select-text-font-color: var(--text-bg-color);
     /*选中文本的 背景颜色*/
     --select-text-bg-color: var(--text-color-8);
+
     /*搜索(ctrl+f)命中文本的 背景颜色*/
     --search-hit-bg-color: var(--text-color-8);
 
@@ -82,8 +84,22 @@
     /*删除线 背景颜色*/
     --deleteline-bg-color: var(--text-bg-color);
 
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
+    /*table表格 边框颜色*/
+    --table-border-color: var(--h1-bg-color);
+    /*table表格 文本颜色*/
+    --table-text-color: var(--text-color);
+    /*table表格 鼠标悬停时背景颜色*/
+    --table-hover-bg-color: var(--h2-bg-color);
+    /*table表格 鼠标悬停时文本颜色*/
+    --table-hover-text-color: var(--header-text-color);
+
+
+    /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
     /*li列表下划线颜色*/
     --li-underline-color: var(--text-color-2);
+
 
     /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
     /*图片阴影颜色*/
