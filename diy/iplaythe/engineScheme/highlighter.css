@@ -25,6 +25,7 @@ html {
 body {
     background-color: var(--scope-bg-color);
 }
+
 /*文本区域, 背景颜色*/
 #write {
     background-color: var(--scope-text-color);
@@ -131,7 +132,12 @@ code {
 
 /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
 /*header 样式设置*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
     font-family: var(--header-font-family);
     padding: 3px;
@@ -178,7 +184,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
 /*table 表格设置*/
-table, th, td {
+table,
+th,
+td {
     text-align: left;
     min-width: 1.1em;
     min-height: 1.1em;
@@ -190,11 +198,14 @@ table, th, td {
 }
 
 /*table表格鼠标悬停时的背景色设置*/
-th:hover, tr:hover {
+th:hover,
+tr:hover {
     background-color: var(--table-hover-bg-color);
 }
+
 /*table表格鼠标悬停时的文本色设置*/
-th:hover .td-span, tr:hover .td-span {
+th:hover .td-span,
+tr:hover .td-span {
     color: var(--table-hover-text-color);
 }
 
