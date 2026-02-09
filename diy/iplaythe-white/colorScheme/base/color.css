@@ -1,0 +1,78 @@
+:root {
+    /* Base color mapping for the light theme.
+       Color math: https://juejin.cn/post/6874958645952692238
+       Palette reference: https://brandcolors.net/ */
+
+    --primary-color: var(--header-color-1);
+
+    --scope-bg-color: var(--scope-color-3);
+    --scope-sidebar-color: var(--scope-color-1);
+    --scope-header-color: var(--scope-color-2);
+
+    --scope-text-color: var(--scope-color-5);
+    --setting-menu-bg-color: var(--primary-color);
+
+    --scrollbar-bg-color: var(--scope-color-2);
+
+    --text-color: var(--text-color-0);
+    --text-bg-color: var(--text-color-1);
+
+    --select-text-font-color: var(--text-bg-color);
+    --select-text-bg-color: var(--text-color-8);
+
+    --search-hit-bg-color: var(--text-color-8);
+
+    --header-text-color: var(--header-color-0);
+    --h1-bg-color: var(--header-color-1);
+    --h2-bg-color: var(--header-color-2);
+    --h3-bg-color: var(--header-color-3);
+    --h4-bg-color: var(--header-color-4);
+    --h5-bg-color: var(--header-color-5);
+    --h6-bg-color: var(--header-color-6);
+
+
+    --code-text-color: var(--text-color);
+    --code-bg-color: var(--text-color-2);
+    --code-area-bg-color: var(--code-bg-color);
+
+
+    --strong-text-color: var(--text-color);
+    --strong-bg-color: var(--text-bg-color);
+
+    --mark-text-color: var(--text-color);
+    --mark-bg-color: var(--text-color-9);
+
+    --italic-text-color: var(--text-color-6);
+    --italic-bg-color: var(--text-bg-color);
+
+    --underline-text-color: var(--text-color);
+    --underline-bg-color: var(--text-color-7);
+
+    --deleteline-text-color: var(--text-color);
+    --deleteline-bg-color: var(--text-bg-color);
+
+
+    --table-border-color: var(--h1-bg-color);
+    --table-text-color: var(--text-color);
+    --table-hover-bg-color: var(--h2-bg-color);
+    --table-hover-text-color: var(--header-text-color);
+
+
+    --li-underline-color: var(--text-color-2);
+
+
+    --img-shadow-color: var(--primary-color);
+
+
+    --toc-text-color: var(--primary-color);
+    --toc-bg-color: var(--h6-bg-color);
+
+
+    --sidebar-text-color: var(--text-color);
+    --sidebar-text-bg-color: var(--text-bg-color);
+
+
+    --setting-menu-text-color: var(--header-text-color);
+    --setting-menu-item-hover-bg-color: var(--h2-bg-color);
+    --setting-menu-item-active-bg-color: var(--h6-bg-color);
+}

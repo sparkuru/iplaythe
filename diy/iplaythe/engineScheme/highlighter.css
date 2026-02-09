@@ -1,39 +1,25 @@
-/* 页面 基础配置 */
 :root {
-    /*基础字体大小*/
     font-size: 16px;
-    /*页面文本宽度*/
-    /*--text-area-max-width: 85vmax;*/
     --text-area-max-width: 100%;
-    /*控制单词如何被拆分换行。normal | break-all | keep-all*/
     --word-break-mode: break-all;
-    /*控制长度超过一行的单词是否被拆分换行。normal | break-word */
     --overflow-wrap-mode: break-word;
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*抗锯齿渲染*/
 html {
     -webkit-font-smoothing: antialiased;
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*背景色设置*/
-/*全局 / scope 背景色*/
 body {
     background-color: var(--scope-bg-color);
 }
 
-/*文本区域, 背景颜色*/
 #write {
     background-color: var(--scope-text-color);
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*文本域基础设置*/
 #write {
     font-family: var(--text-font-family);
     font-size: 1.1em;
@@ -50,38 +36,31 @@ body {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*加粗*/
 strong {
     color: var(--strong-text-color);
     background: var(--strong-bg-color);
 }
 
-/*标记高亮*/
 mark {
     color: var(--mark-text-color);
     background: var(--mark-bg-color);
 }
 
-/*斜体*/
 em {
     color: var(--italic-text-color);
     background: var(--italic-bg-color);
 }
 
-/*下划线*/
 u {
     color: var(--underline-text-color);
     background: var(--underline-bg-color);
 }
 
-/*删除线*/
 del {
     color: var(--deleteline-text-color);
     background: var(--deleteline-bg-color);
 }
 
-/*超链接*/
 a {
     color: var(--primary-color);
     text-decoration: underline solid;
@@ -91,19 +70,15 @@ a {
     text-underline-offset: 2px;
 }
 
-/*图片相关设置 添加投影*/
 img {
     filter: drop-shadow(0 0 0.3em var(--img-shadow-color));
 }
 
-/*搜索命中  ctrl + f  文本背景颜色*/
 .md-search-hit {
     background-color: var(--search-hit-bg-color);
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*行内 `code` 代码块样式设置*/
 code {
     color: var(--code-text-color);
     background-color: var(--code-bg-color);
@@ -115,7 +90,6 @@ code {
     margin: 2px;
 }
 
-/*多行 ```code``` 代码块样式设置*/
 .md-fences {
     display: block;
     background-size: 40px;
@@ -130,8 +104,6 @@ code {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*header 样式设置*/
 h1,
 h2,
 h3,
@@ -182,8 +154,6 @@ h6 {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*table 表格设置*/
 table,
 th,
 td {
@@ -197,21 +167,17 @@ td {
     padding-left: 3px;
 }
 
-/*table表格鼠标悬停时的背景色设置*/
 th:hover,
 tr:hover {
     background-color: var(--table-hover-bg-color);
 }
 
-/*table表格鼠标悬停时的文本色设置*/
 th:hover .td-span,
 tr:hover .td-span {
     color: var(--table-hover-text-color);
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*列表样式设置*/
 #write li {
     text-decoration-line: underline;
     text-decoration-color: var(--li-underline-color);
@@ -221,18 +187,6 @@ tr:hover .td-span {
     color: var(--primary-color);
 }
 
-/*FIXME li 整行下划线方案 */
-li p .md-plain {
-    /*display: block;*/
-    /*border-bottom: 1px solid red;*/
-    /*height: 22px;*/
-    /*margin: 12px 0;*/
-    /* margin:   li里面的下划线位置*/
-}
-
-
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*引用样式设置*/
 #write blockquote {
     display: block;
     font-size: 0.9em;
@@ -246,8 +200,6 @@ li p .md-plain {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*TOC 目录属性设置*/
 .md-toc {
     font-family: var(--toc-font-family);
     font-size: 0.8em;
@@ -258,8 +210,6 @@ li p .md-plain {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*侧边目录栏 样式设置*/
 #typora-sidebar {
     font-family: var(--sidebar-font-family);
     color: var(--sidebar-text-color);
@@ -267,22 +217,16 @@ li p .md-plain {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*侧边目录栏 样式设置*/
 header {
     background-color: var(--scope-header-color);
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*页面最上方的 打开的本文件名*/
 #title-text {
     font-family: var(--text-font-family);
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*滚动条 Scrollbar样式设置*/
 ::-webkit-scrollbar {
     width: 0.35em;
 }
@@ -292,8 +236,6 @@ header {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*setting界面 样式设置*/
 #megamenu-menu-sidebar {
     font-family: var(--setting-menu-font-family);
     background-color: var(--setting-menu-bg-color);
@@ -311,12 +253,61 @@ header {
 }
 
 
-/*TODO 逻辑区域分割线-------------------------------------------------------------------------------------*/
-/*偏好设置 样式设置*/
 .window .sidebar {
     font-family: var(--preferences-menu-font-family);
+    background-color: var(--scope-sidebar-color);
+    color: var(--sidebar-text-color);
 }
 
 .window .window-content {
     font-family: var(--preferences-content-font-family);
+    background-color: var(--scope-text-color);
+    color: var(--text-color);
+}
+
+.ty-preferences .window-header {
+    background-color: var(--scope-header-color);
+    color: var(--text-color);
+    border-bottom: 1px solid var(--li-underline-color);
+    box-shadow: none;
+}
+
+.ty-preferences .window-header .window-title {
+    color: inherit;
+}
+
+.ty-preferences .nav-group-item {
+    color: var(--sidebar-text-color);
+}
+
+.ty-preferences .nav-group-item.active {
+    background-color: var(--scope-text-color);
+    color: var(--text-color);
+}
+
+.ty-preferences .export-detail,
+.ty-preferences .export-items-list-control {
+    background-color: var(--scope-text-color);
+    color: var(--text-color);
+    border: 1px solid var(--li-underline-color);
+    border-radius: 4px;
+}
+
+.ty-preferences input[type="text"],
+.ty-preferences input[type="number"],
+.ty-preferences input[type="password"],
+.ty-preferences input[type="email"],
+.ty-preferences select,
+.ty-preferences textarea {
+    background-color: var(--scope-text-color);
+    color: var(--text-color);
+    border: 1px solid var(--li-underline-color);
+}
+
+.ty-preferences input[type="text"]::placeholder,
+.ty-preferences input[type="number"]::placeholder,
+.ty-preferences input[type="password"]::placeholder,
+.ty-preferences input[type="email"]::placeholder,
+.ty-preferences textarea::placeholder {
+    color: var(--table-text-color);
 }

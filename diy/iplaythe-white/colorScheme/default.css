@@ -1,0 +1,34 @@
+@import "base/color.css";
+
+
+:root {
+    /* Light theme with neutral light background, dark text, and Vue green accents. */
+
+    --header-color-0: #111827;
+
+    --header-color-1: #42b883;
+    --header-color-2: #52cc9a;
+    --header-color-3: #79d8b1;
+    --header-color-4: #a0e4c8;
+    --header-color-5: #c8f0df;
+    --header-color-6: #e6f7f0;
+
+    --text-color-0: #111827;
+    --text-color-1: #ffffff;
+    --text-color-2: #e5e7eb;
+    --text-color-3: #6b7280;
+
+    --text-color-4: #b91c1c;
+    --text-color-5: #dc2626;
+    --text-color-6: #ef4444;
+
+    --text-color-7: #bbf7d0;
+    --text-color-9: #a7f3d0;
+    --text-color-8: #6ee7b7;
+
+    --scope-color-1: #f3f4f6;
+    --scope-color-2: #e5e7eb;
+    --scope-color-3: #e5e7eb;
+    --scope-color-4: #f9fafb;
+    --scope-color-5: #ffffff;
+}

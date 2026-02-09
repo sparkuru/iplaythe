@@ -1,0 +1,4 @@
+/* Light theme: reuse iplaythe engine and fonts, override colors. */
+@import url("iplaythe/engineScheme/highlighter.css");
+@import url("iplaythe/fontScheme/default.css");
+@import url("iplaythe-white/colorScheme/default.css");
