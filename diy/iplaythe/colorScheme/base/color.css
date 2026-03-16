@@ -91,7 +91,7 @@
     /*table表格 文本颜色*/
     --table-text-color: var(--text-color);
     /*table表格 鼠标悬停时背景颜色*/
-    --table-hover-bg-color: var(--h2-bg-color);
+    --table-hover-bg-color: var(--global-table-hover-bg-color);
     /*table表格 鼠标悬停时文本颜色*/
     --table-hover-text-color: var(--header-text-color);
 

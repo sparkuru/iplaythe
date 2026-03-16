@@ -43,4 +43,6 @@
     --code-text-color: var(--text-color);
     --code-bg-color: #475569;
     --code-area-bg-color: #475569;
+
+    --global-table-hover-bg-color: #069ea68e;
 }
